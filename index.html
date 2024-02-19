@@ -1,0 +1,39 @@
+<!DOCTYPE html> // The
+<!DOCTYPE> declaration represents the document type, and helps browsers to display web pages correctly.
+<html lang="en"> // The <html> tag represents the root of an HTML document. The lang attribute is used to declare the
+language of the Web page.
+<head>
+    <meta charset="UTF-8"> // UTF-8 is the character encoding for the web. It includes all the characters in the world.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> // The viewport is the user's visible area of
+    a web page. It varies with the device - it will be smaller on a mobile phone than on a computer screen.
+    <title>My Web Page</title> // The <title> tag is required in all HTML documents and it defines the title of the
+        document.
+        <link rel="stylesheet" href="style.css"> // The
+        <link> tag is used to link to external style sheets.
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Web Page</h1>
+    </header>
+    <main>
+        <p>This is a basic web page created for the HTML, CSS, and JavaScript exercise.</p>
+        <img src="image.jpg" alt="Image">
+        <ul> // The <ul> tag defines an unordered (bulleted) list.
+            <li>Learn HTML</li>
+            <li>Master CSS</li>
+            <li>Explore JavaScript</li>
+        </ul>
+        <br>
+        <button id="changeColorBtn">Change Background Color</button>
+        <br>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
